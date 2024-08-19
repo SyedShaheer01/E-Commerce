@@ -1,0 +1,45 @@
+.two-form {
+     display: flex;
+     gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.loader-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10%;
+}
+.loader-sec h1{
+    color: green;
+}
+
+
+@media(max-Width:600px){   
+    
+    .loader-sec h1{
+        font-size: 22px;
+
+    }
+    
+    .loader-sec{
+        margin-top: 70%;
+    }
+    .css-1h51icj-MuiAutocomplete-root .MuiOutlinedInput-root{
+        padding: 6px 0px !important;
+        width: 150px !important;
+    }
+    
+    #form1{
+        padding-left: 0px !important;
+
+    }
+    
+    #sort-form{
+        padding-right: 20px !important;
+    }
+}
