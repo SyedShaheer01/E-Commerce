@@ -142,20 +142,20 @@ function Home() {
 
     }
 
-    const changeHandler = (e) => {
+    // const changeHandler = (e) => {
 
-        setChange(e.target.value)
-        let data = [...products]
+    //     setChange(e.target.value)
+    //     let data = [...products]
 
-        if (change) {
+    //     if (change) {
 
-            let value = data.filter((item) => item.title.toLowerCase().includes(change))
-            setProducts(value)
-        }
+    //         let value = data.filter((item) => item.title.toLowerCase().includes(change))
+    //         setProducts(value)
+    //     }
        
 
 
-    }
+    // }
 
     const classes = useStyles();
 
@@ -168,7 +168,7 @@ function Home() {
             <div className="two-form">
 
 
-                <Stack id="form1" className={classes.root} spacing={2} sx={{ width: 300, paddingLeft: "30px" }}>
+                {/* <Stack id="form1" className={classes.root} spacing={2} sx={{ width: 300, paddingLeft: "30px" }}>
                     <Autocomplete
                         freeSolo
                         id="free-solo-2-demo"
@@ -189,7 +189,7 @@ function Home() {
                             />
                         )}
                     />
-                </Stack>
+                </Stack> */}
 
                 <FormControl id="sort-form" className={classes.root} sx={{ m: 3, minWidth: 160 }} size="small">
                     <InputLabel className={classes.root} id="demo-select-small-label">Sort Products</InputLabel>
